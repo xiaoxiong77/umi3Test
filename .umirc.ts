@@ -11,19 +11,18 @@ export default defineConfig({
   routes: [
     {
       path: '/',
-      component: '@/pages/index',
+      // component: '@/pages/index',
+      component: '@/pages/microapp',
     },
     {
       name: '首页',
       path: '/home',
-      // component: '@/pages/Home',
-      component: '@/pages/microapp',
+      component: '@/pages/Home',
     },
     {
       name: '权限演示',
       path: '/access',
-      // component: '@/pages/Access',
-      component: '@/pages/microapp',
+      component: '@/pages/Access',
     },
   ],
   fastRefresh: {},
